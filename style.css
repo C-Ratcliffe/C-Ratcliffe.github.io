@@ -1,7 +1,11 @@
 body{
 	background: black;
 }
+h3{
+	colour: green;
+}
 p{
-	font-family: "Consolas";
 	color: white;
+	font-family: "Consolas";
+	margin-left: 20px;
 }
