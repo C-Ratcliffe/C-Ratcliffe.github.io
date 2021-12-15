@@ -5,10 +5,11 @@ body, html {
 
 .hero_image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
-	height: 15%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 15%;
+	margin = 0;
 	position: relative;
 }
 .hero_text {
