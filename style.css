@@ -2,10 +2,10 @@ body{
 	background: black;
 }
 h3{
-	colour: green;
+	color: green;
+	font-family: "Consolas";
 }
 p{
 	color: white;
 	font-family: "Consolas";
-	margin-left: 40px;
 }
