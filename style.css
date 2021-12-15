@@ -2,13 +2,13 @@ body{
 	background-color: rgba(240, 240, 240, 1);
 }
 h3{
-	color: rgba(50, 50, 50, 1);
+	color: rgba(30, 30, 30, 1);
 	font-family: "Helvetica";
 	font-size: 2em;
 	text-align: center;
 }
 p{
-	color: rgba(120, 120, 120, 1);
+	color: rgba(80, 80, 80, 1);
 	font-family: "Helvetica";
 	font-size: 1em;
 	text-align: center;
