@@ -9,9 +9,8 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 15%;
-	padding: 0px;
+	margin: 0px;
 	position: relative;
-	border: 2px solid black;
 }
 .hero_text {
 	color: rgba(30, 30, 30, 1);
