@@ -2,9 +2,10 @@ body {
 	background-color: rgba(240, 240, 240, 1);
 }
 .header img {
-	background-size: cover;
+	object-fit: none;
+	object-position: 80%;
 	height: 300px;
-	position: relative;
+	position: center;
 	text-align: center;
 	width: 100%;
 }
