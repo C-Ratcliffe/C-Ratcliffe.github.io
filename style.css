@@ -4,7 +4,7 @@ body, html {
 }
 
 .hero_image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img\Header_Brain_Cropped.jpg");
+	background-image: url("img\Header_Brain_Cropped.jpg");
 	height: 20%;
 	background-position: center;
 	background-repeat: no-repeat;
