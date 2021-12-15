@@ -1,14 +1,14 @@
 body{
-	background: black;
+	background-color: rgba(240, 240, 240, 1);
 }
 h3{
-	color: green;
+	color: rgba(50, 50, 50, 1);
 	font-family: "Helvetica";
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 }
 p{
-	color: white;
+	color: rgba(120, 120, 120, 1);
 	font-family: "Helvetica";
 	font-size: 1em;
 	text-align: center;
