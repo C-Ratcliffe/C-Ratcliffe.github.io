@@ -9,7 +9,7 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 15%;
-	padding: 0;
+	padding: 0px;
 	position: relative;
 }
 .hero_text {
