@@ -6,6 +6,10 @@ body {
 	position: relative;
 	width: 100%;
 }
+.header img {
+	max-height: auto;
+	max-width: 100%;
+}
 .main_title {
 	color: rgba(30, 30, 30, 1);
 	font-family: "Helvetica";
