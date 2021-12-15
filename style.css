@@ -15,8 +15,10 @@ body, html {
 	color: rgba(30, 30, 30, 1);
 	font-family: "Helvetica";
 	font-size: 1.5em;
-	position: absolute;
 	left: 2%;
+	position: absolute;
+	top: 50%;
+	transform: translate(0%, -50%);
 }
 p {
 	color: rgba(80, 80, 80, 1);
