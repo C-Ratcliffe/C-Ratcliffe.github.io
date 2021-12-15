@@ -1,19 +1,17 @@
-body {
+body, html {
+	height: 100%;
 	background-color: rgba(240, 240, 240, 1);
 }
-.header {
-	height: 250px;
-	overflow: hidden;
+
+.hero_image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img\Header_Brain_Cropped.jpg");
+	height: 20%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: relative;
-	width: 100%;
 }
-.header img {
-	max-height: auto;
-	max-width: 100%;
-	position: absolute;
-	text-align: center;
-}
-.main_title {
+.hero_text {
 	color: rgba(30, 30, 30, 1);
 	font-family: "Helvetica";
 	font-size: 2em;
