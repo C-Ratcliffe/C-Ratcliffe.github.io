@@ -4,7 +4,7 @@ body, html {
 }
 
 .hero_image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
 	height: 15%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -16,7 +16,6 @@ body, html {
 	font-family: "Helvetica";
 	font-size: 1.5em;
 	position: absolute;
-	text-align: center;
 	left: 2%;
 }
 p {
