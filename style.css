@@ -5,6 +5,7 @@ body {
 	object-fit: none;
 	object-position: 80%;
 	height: 300px;
+	margin: 0;
 	position: center;
 	text-align: center;
 	width: 100%;
@@ -14,8 +15,8 @@ body {
 	font-family: "Helvetica";
 	font-size: 2em;
 	position: absolute;
-	top: 100px;
-	left: 20px;
+	top: 150px;
+	left: 40px;
 }
 p {
 	color: rgba(80, 80, 80, 1);
