@@ -10,7 +10,8 @@ body {
 .header img {
 	max-height: auto;
 	max-width: 100%;
-	position: absolute
+	position: absolute;
+	text-align: center;
 }
 .main_title {
 	color: rgba(30, 30, 30, 1);
