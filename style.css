@@ -8,8 +8,8 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 15%;
 	min-width: 100%;
-	margin = 0;
 	position: relative;
 }
 .hero_text {
