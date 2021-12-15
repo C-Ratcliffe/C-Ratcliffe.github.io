@@ -1,1 +1,0 @@
-# Corey Ratcliffe's GitHub site
