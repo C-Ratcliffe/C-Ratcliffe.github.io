@@ -10,7 +10,9 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 250px;
+	height: 20%;
+	min-height: 100px;
+	max-height: 250px;
 	position: relative;
 }
 .hero_text {
