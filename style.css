@@ -18,14 +18,12 @@ body, html {
 }
 .hero_text {
 	left: 20px;
-	padding-right: 20px;
 	position: absolute;
 	top: 50%;
 	transform: translate(0%, -50%);
 }
 .hero_subtext {
 	left: 20px;
-	padding-right: 20px;
 	position: absolute;
 	top: 75%;
 	transform: translate(0%, -50%);
