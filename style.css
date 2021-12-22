@@ -21,17 +21,17 @@ body, html {
 	font-family: "Inter", sans-serif;
 	font-size: 24px;
 	font-variant: small-caps;
-	font-weight: 100;
+	font-weight: 300;
 	left: 10px;
 	position: absolute;
 	top: 50%;
 	transform: translate(0%, -50%);
 }
 .hero_subtext {
-	color: rgba(230, 230, 230, 1);
+	color: rgba(245, 245, 245, 1);
 	font-family: "Inter", sans-serif;
 	font-size: 12px;
-	font-weight: 300;
+	font-weight: 400;
 	left: 10px;
 	position: absolute;
 	top: 75%;
@@ -57,4 +57,3 @@ p1 {
 	position: relative;
 	text-align: left;
 }
-
