@@ -11,9 +11,9 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 20%;
-	min-height: 100px;
+	margin: 0;
 	max-height: 250px;
-	padding: 0px;
+	min-height: 100px;
 	position: relative;
 }
 .hero_text {
