@@ -18,8 +18,8 @@ body, html {
 .hero_text {
 	color: rgba(230, 230, 230, 1);
 	font-family: Verdana, sans-serif;
-	font-size: 24px;
-/*	font-variant: small-caps; */
+	font-size: 46px;
+	font-variant: small-caps;
 	font-weight: 100;
 	left: 10px;
 	position: absolute;
