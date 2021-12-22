@@ -18,10 +18,10 @@ body, html {
 }
 .hero_text {
 	color: rgba(230, 230, 230, 1);
-	font-family: Verdana, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 46px;
 	font-variant: small-caps;
-	font-weight: 300;
+	font-weight: 100;
 	left: 10px;
 	position: absolute;
 	top: 50%;
@@ -29,9 +29,9 @@ body, html {
 }
 .hero_subtext {
 	color: rgba(230, 230, 230, 1);
-	font-family: Verdana, sans-serif;
+	font-family: Arial sans-serif;
 	font-size: 12px;
-	font-weight: 300;
+	font-weight: 100;
 	left: 10px;
 	position: absolute;
 	top: 75%;
@@ -41,6 +41,7 @@ p {
 	color: rgba(80, 80, 80, 1);
 	font-family: Georgia, sans-serif;
 	font-size: 16px;
+	font-weight: bold;
 	line-height: 32px;
 	margin: 20px;
 	position: absolute;
