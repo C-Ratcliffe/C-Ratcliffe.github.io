@@ -17,8 +17,8 @@ body, html {
 }
 .hero_text {
 	color: rgba(30, 30, 30, 1);
-	font-family: "Helvetica";
-	font-size: 200%;
+	font-family: Helvetica, sans-serif;
+	font-size: 250%;
 	font-variant: small-caps;
 	left: 10px;
 	position: absolute;
@@ -27,7 +27,7 @@ body, html {
 }
 p {
 	color: rgba(80, 80, 80, 1);
-	font-family: "Helvetica";
+	font-family: Tahoma, sans-serif;
 	font-size: 100%;
 	line-height: 200%;
 	margin: 20px;
