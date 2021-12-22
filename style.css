@@ -49,9 +49,8 @@ h3 {
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	left: 30px;
 	line-height: 32px;
-	max-width: 100%;
+	padding-left: 30px;
 	padding-right: 30px;
 	position: relative;
 	text-align: left;
@@ -62,8 +61,7 @@ p {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 32px;
-	left: 40px;
-	max-width: 100%;
+	padding-left: 40px;
 	padding-right: 40px;
 	position: relative;
 	text-align: left;
