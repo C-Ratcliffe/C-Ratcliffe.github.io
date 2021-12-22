@@ -44,7 +44,7 @@ p {
 	font-weight: 600;
 	line-height: 48px;
 	margin: 20px;
-	position: absolute;
+	position: relative;
 	text-align: left;
 }
 p1 {
@@ -54,6 +54,6 @@ p1 {
 	font-weight: 100;
 	line-height: 32px;
 	margin: 20px;
-	position: absolute;
+	position: relative;
 	text-align: left;
 }
