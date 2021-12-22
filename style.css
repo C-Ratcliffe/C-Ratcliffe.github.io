@@ -18,8 +18,8 @@ body, html {
 }
 .hero_text {
 	color: rgba(230, 230, 230, 1);
-	font-family: "Arial Narrow", sans-serif;
-	font-size: 46px;
+	font-family: "Inter", sans-serif;
+	font-size: 32px;
 	font-variant: small-caps;
 	font-weight: 100;
 	left: 10px;
@@ -29,7 +29,7 @@ body, html {
 }
 .hero_subtext {
 	color: rgba(230, 230, 230, 1);
-	font-family: "Arial Narrow", sans-serif;
+	font-family: "Inter", sans-serif;
 	font-size: 12px;
 	font-weight: 900;
 	left: 10px;
@@ -39,7 +39,7 @@ body, html {
 }
 p {
 	color: rgba(80, 80, 80, 1);
-	font-family: Georgia, sans-serif;
+	font-family: Georgia, serif;
 	font-size: 16px;
 	font-weight: 100;
 	line-height: 32px;
