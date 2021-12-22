@@ -21,7 +21,7 @@ body, html {
 	font-family: "Inter", sans-serif;
 	font-size: 24px;
 	font-variant: small-caps;
-	font-weight: 600;
+	font-weight: 100;
 	left: 10px;
 	position: absolute;
 	top: 50%;
@@ -31,7 +31,7 @@ body, html {
 	color: rgba(230, 230, 230, 1);
 	font-family: "Inter", sans-serif;
 	font-size: 12px;
-	font-weight: 600;
+	font-weight: 300;
 	left: 10px;
 	position: absolute;
 	top: 75%;
@@ -41,7 +41,7 @@ p {
 	color: rgba(0, 0, 0, 1);
 	font-family: "Inter", sans-serif;
 	font-size: 16px;
-	font-weight: 900;
+	font-weight: 300;
 	line-height: 32px;
 	margin: 20px;
 	position: relative;
@@ -51,7 +51,7 @@ p1 {
 	color: rgba(0, 0, 0, 1);
 	font-family: "Inter", sans-serif;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 200;
 	line-height: 28px;
 	left: 30px;
 	position: relative;
