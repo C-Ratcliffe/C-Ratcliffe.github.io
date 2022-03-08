@@ -7,6 +7,39 @@ body, html {
 
 .hero_image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20%;
+	margin: 0px;
+	max-height: 250px;
+	min-height: 100px;
+	position: relative;
+}
+.hero_text {
+	left: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+.hero_subtext {
+	left: 20px;
+	position: absolute;
+	top: 75%;
+	transform: translate(0%, -50%);
+}
+h1 {
+	color: rgba(245, 245, 245, 1);
+	font-family: 'Inter', sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+}
+h2 {
+	color: rgba(245, 245, 245, 1);
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
 .welcome_p {
 	margin: 0px;
 	position: relative;
