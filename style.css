@@ -4,11 +4,11 @@ body, html {
 	margin: 0;
 	padding: 0;
 }
-page-container {
+.page-container {
   position: relative;
   min-height: 100%;
 }
-content-wrap {
+.content-wrap {
   padding-bottom: 2.5rem;
 }
 .hero_image {
