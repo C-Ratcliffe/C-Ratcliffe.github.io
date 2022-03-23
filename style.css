@@ -103,3 +103,6 @@ a:hover, a:active {
 	font-weight: 200;
 	line-height: 24px;
 }
+ul {
+    list-style-type: none;
+}
