@@ -41,8 +41,6 @@ body, html {
     bottom: 0;
     height: 5.5rem;
     margin: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
     position: absolute;
     text-align: center;
 }
@@ -72,7 +70,7 @@ h3 {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 28px;
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
@@ -84,6 +82,8 @@ h3 {
     font-size: 12px;
     font-weight: 200;
     line-height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 a:link, a:visited {
 	color: rgba(0, 0, 0, 1);
