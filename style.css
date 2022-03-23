@@ -40,11 +40,11 @@ body, html {
 #footer {
     bottom: 0;
     height: 5.5rem;
+    margin: 0px;
     padding-left: 10px;
     padding-right: 10px;
     position: absolute;
     text-align: center;
-    width: 100%;
 }
 h1 {
 	color: rgba(245, 245, 245, 1);
