@@ -68,7 +68,14 @@ h3 {
 	position: relative;
 	text-align: left;
 }
-a {
+a:link, a:visited {
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 24px;
+    text-decoration: none;
+}
+a:hover, a:active {
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 200;
