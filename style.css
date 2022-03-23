@@ -9,10 +9,10 @@ body, html {
     min-height: 100%;
 }
 #content-wrap {
-    height: auto;
     margin: 0px;
-    min-height: 100%;
     padding-bottom: 5.5rem;
+	padding-left: 30px;
+	padding-right: 30px;
     position: absolute;
 }
 #hero_image {
@@ -64,8 +64,6 @@ h3 {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 32px;
-	padding-left: 30px;
-	padding-right: 30px;
 	position: relative;
 	text-align: left;
 }
@@ -75,8 +73,8 @@ h3 {
     font-size: 16px;
     font-weight: 300;
     line-height: 32px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
     text-align: left;
 }
