@@ -10,6 +10,7 @@ body, html {
 }
 #content-wrap {
   padding-bottom: 5.5rem;
+  min-height: 100vh;
 }
 #hero_image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
@@ -34,27 +35,9 @@ body, html {
 	top: 75%;
 	transform: translate(0%, -50%);
 }
-#welcome_p {
+#intro {
 	margin: 0px;
 	position: absolute;
-}
-.bodytext {
-    color: rgba(0, 0, 0, 1);
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 32px;
-    padding-left: 40px;
-    padding-right: 40px;
-    position: relative;
-    text-align: left;
-}
-.footertext {
-    color: rgba(0, 0, 0, 1);
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
-    font-weight: 200;
-    line-height: 24px;
 }
 #footer {
     position: absolute;
@@ -85,6 +68,26 @@ h3 {
 	padding-right: 30px;
 	position: relative;
 	text-align: left;
+}
+.bodytext {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    text-align: left;
+}
+.footertext {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    left: 10px;
+    line-height: 24px;
+    right: 10px;
 }
 a:link, a:visited {
 	color: rgba(0, 0, 0, 1);
