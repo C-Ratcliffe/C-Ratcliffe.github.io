@@ -5,8 +5,8 @@ body, html {
 	padding: 0;
 }
 #page-container {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 #content-wrap {
     height: auto;
