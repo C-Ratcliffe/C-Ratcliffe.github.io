@@ -69,6 +69,7 @@ h3 {
 	text-align: left;
 }
 a:link, a:visited {
+	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 200;
