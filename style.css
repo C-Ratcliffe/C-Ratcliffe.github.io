@@ -18,7 +18,7 @@ body, html {
     height: 5.5rem;
 	text-align: center;
 }
-.hero_image {
+#hero_image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -29,19 +29,19 @@ body, html {
 	min-height: 100px;
 	position: relative;
 }
-.hero_text {
+#hero_text {
 	left: 20px;
 	position: absolute;
 	top: 50%;
 	transform: translate(0%, -50%);
 }
-.hero_subtext {
+#hero_subtext {
 	left: 20px;
 	position: absolute;
 	top: 75%;
 	transform: translate(0%, -50%);
 }
-.welcome_p {
+#welcome_p {
 	margin: 0px;
 	position: absolute;
 }
