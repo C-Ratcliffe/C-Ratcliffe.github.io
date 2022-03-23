@@ -68,6 +68,12 @@ h3 {
 	position: relative;
 	text-align: left;
 }
+href2 {
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 24px;
+}
 p {
 	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
