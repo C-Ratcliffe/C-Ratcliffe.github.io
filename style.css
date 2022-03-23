@@ -41,7 +41,8 @@ body, html {
 #footer {
     bottom: 0;
     height: 5.5rem;
-    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: absolute;
     text-align: center;
     width: 100%;
