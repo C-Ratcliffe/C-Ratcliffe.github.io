@@ -13,7 +13,6 @@ body, html {
     padding-bottom: 5.5rem;
 	padding-left: 30px;
 	padding-right: 30px;
-    position: absolute;
 }
 #hero_image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
