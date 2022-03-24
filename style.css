@@ -60,9 +60,9 @@ h2 {
 h3 {
 	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 36px;
 	position: relative;
 	text-align: left;
 }
@@ -71,7 +71,7 @@ h3 {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 28px;
+    line-height: 32px;
     position: relative;
     text-align: left;
 }
@@ -80,7 +80,7 @@ h3 {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 200;
-    line-height: 21px;
+    line-height: 24px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -89,7 +89,7 @@ a:link, a:visited {
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
-	line-height: 28px;
+	line-height: 32px;
     text-decoration: none;
 }
 a:hover, a:active {
@@ -97,7 +97,7 @@ a:hover, a:active {
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
-	line-height: 28px;
+	line-height: 32px;
     text-decoration: underline;
 }
 a.footer:link, a.footer:visited {
@@ -121,7 +121,7 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
-	line-height: 24px;
+	line-height: 32px;
     text-decoration: none;
 }
 ul {
@@ -148,7 +148,7 @@ li {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 48px;
+    line-height: 32px;
 }
 li.nav {
     color: rgba(245, 245, 245, 1);
