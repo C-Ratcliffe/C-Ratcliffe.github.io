@@ -48,19 +48,19 @@ body, html {
 h1 {
 	color: rgba(245, 245, 245, 1);
 	font-family: 'Inter', sans-serif;
-	font-size: 32px;
+	font-size: 2em;
 	font-weight: 400;
 }
 h2 {
 	color: rgba(245, 245, 245, 1);
 	font-family: 'Inter', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: 300;
 }
 h3 {
 	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
-	font-size: 18px;
+	font-size: 1.125em;
 	font-weight: 400;
 	line-height: 200%;
 	position: relative;
@@ -69,7 +69,7 @@ h3 {
 .bodytext {
     color: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
     line-height: 200%;
     position: relative;
@@ -78,7 +78,7 @@ h3 {
 .footertext {
     color: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 200;
     line-height: 200%;
     padding-left: 10px;
@@ -88,7 +88,7 @@ h3 {
     color: rgba(0, 0, 0, 1);
     display: inline;
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 300;
     line-height: 200%;
     padding-left: 0px;
@@ -96,7 +96,7 @@ h3 {
 a:link, a:visited {
 	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: 400;
 	line-height: 200%;
     text-decoration: none;
@@ -104,7 +104,7 @@ a:link, a:visited {
 a:hover, a:active {
     color: blue;
 	font-family: 'Inter', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: 400;
 	line-height: 200%;
     text-decoration: underline;
@@ -112,7 +112,7 @@ a:hover, a:active {
 a.footer:link, a.footer:visited {
 	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
-	font-size: 12px;
+	font-size: 0.75em;
 	font-weight: 200;
 	line-height: 200%;
     text-decoration: none;
@@ -120,7 +120,7 @@ a.footer:link, a.footer:visited {
 a.footer:hover, a.footer:active {
     color: blue;
 	font-family: 'Inter', sans-serif;
-	font-size: 12px;
+	font-size: 0.75em;
 	font-weight: 200;
 	line-height: 200%;
     text-decoration: underline;
@@ -128,7 +128,7 @@ a.footer:hover, a.footer:active {
 a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
 	color: rgba(255, 255, 255, 1);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
 	line-height: 200%;
     padding: 18px;
@@ -137,7 +137,7 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
 a.sub:link, a.sub:visited {
 	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 400;
 	line-height: 200%;
     text-decoration: none;
@@ -145,7 +145,7 @@ a.sub:link, a.sub:visited {
 a.sub:hover, a.sub:active {
     color: blue;
 	font-family: 'Inter', sans-serif;
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 400;
 	line-height: 200%;
     text-decoration: underline;
@@ -171,14 +171,14 @@ ul.nav {
 li {
     color: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
     line-height: 200%;
 }
 li.sub {
     color: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 300;
     line-height: 200%;
 }
@@ -187,7 +187,7 @@ li.nav {
     display: block;
     float: left;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 500;
     padding: 8px;
 }
