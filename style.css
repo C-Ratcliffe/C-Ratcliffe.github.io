@@ -188,3 +188,7 @@ li.nav:hover {
 li.nav:active {
     background-color: rgba(100, 100, 100, 1);
 }
+img.figure {
+    max-width: 100%;
+    height: auto;
+}
