@@ -22,13 +22,13 @@ body, html {
 #hero_text {
 	left: 20px;
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	transform: translate(0%, -50%);
 }
 #hero_subtext {
 	left: 20px;
 	position: absolute;
-	top: 75%;
+	top: 85%;
 	transform: translate(0%, -50%);
 }
 #page_content {
