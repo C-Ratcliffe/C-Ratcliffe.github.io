@@ -1,5 +1,5 @@
 body, html {
-	background-color: rgba(245, 245, 245, 1);
+	background-colour: rgba(245, 245, 245, 1);
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -9,7 +9,7 @@ body, html {
     min-height: 100vh;
 }
 #navigation {
-	background-image: rgba(0, 0, 0, 1);
+	background-colour: rgba(0, 0, 0, 1);
 	height: 3rem;
 	margin: 0px;
     padding: 0px;
@@ -53,19 +53,19 @@ body, html {
     width: 100%;
 }
 h1 {
-	color: rgba(245, 245, 245, 1);
+	colour: rgba(245, 245, 245, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 32px;
 	font-weight: 400;
 }
 h2 {
-	color: rgba(245, 245, 245, 1);
+	colour: rgba(245, 245, 245, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 }
 h3 {
-	color: rgba(0, 0, 0, 1);
+	colour: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -74,7 +74,7 @@ h3 {
 	text-align: left;
 }
 .bodytext {
-    color: rgba(0, 0, 0, 1);
+    colour: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -83,7 +83,7 @@ h3 {
     text-align: left;
 }
 .footertext {
-    color: rgba(0, 0, 0, 1);
+    colour: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 200;
@@ -95,7 +95,7 @@ h3 {
     text-indent:40px
 }
 a:link, a:visited {
-	color: rgba(0, 0, 0, 1);
+	colour: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -103,7 +103,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 a:hover, a:active {
-    color: blue;
+    colour: blue;
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -111,7 +111,7 @@ a:hover, a:active {
     text-decoration: underline;
 }
 a.footer:link, a.footer:visited {
-	color: rgba(0, 0, 0, 1);
+	colour: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 200;
@@ -119,7 +119,7 @@ a.footer:link, a.footer:visited {
     text-decoration: none;
 }
 a.footer:hover, a.footer:active {
-    color: blue;
+    colour: blue;
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 200;
@@ -128,7 +128,7 @@ a.footer:hover, a.footer:active {
 }
 ul {
     list-style-type: none;
-    color: rgba(0, 0, 0, 1);
+    colour: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -138,7 +138,7 @@ ul {
 }
 ul.list {
     list-style-type: none;
-    color: rgba(255, 255, 255, 1);
+    colour: rgba(255, 255, 255, 1);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
