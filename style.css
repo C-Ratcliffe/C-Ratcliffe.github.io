@@ -144,6 +144,7 @@ ul.nav {
     text-align: left;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 li.nav {
     color: rgba(255, 255, 255, 1);
