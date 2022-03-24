@@ -15,12 +15,6 @@ body, html {
     padding: 0px;
 	position: relative;
 }
-#content-wrap {
-    margin: 0px;
-    padding-bottom: 5.5rem;
-	padding-left: 30px;
-	padding-right: 30px;
-}
 #hero_image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
 	background-position: center;
@@ -43,6 +37,12 @@ body, html {
 	position: absolute;
 	top: 75%;
 	transform: translate(0%, -50%);
+}
+#page_content {
+    margin: 0px;
+    padding-bottom: 5.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #footer {
     bottom: 0;
