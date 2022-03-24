@@ -121,8 +121,10 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    height: 56px;
 	line-height: 200%;
-    padding: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
     text-decoration: none;
 }
 a.sub:link, a.sub:visited {
