@@ -96,6 +96,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 a:hover, a:active {
+    color: blue;
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -110,6 +111,7 @@ a.footer:link, a.footer:visited {
     text-decoration: none;
 }
 a.footer:hover, a.footer:active {
+    color: blue;
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 200;
