@@ -63,6 +63,7 @@ h3 {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 36px;
+    margin: 18px;
 	position: relative;
 	text-align: left;
 }
@@ -126,7 +127,6 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
 }
 ul {
     list-style-type: none;
-    padding: 0px;
     position: relative;
     text-align: left;
 }
