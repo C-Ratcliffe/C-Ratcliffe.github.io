@@ -63,7 +63,6 @@ h3 {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 36px;
-    margin: 18px;
 	position: relative;
 	text-align: left;
 }
@@ -125,6 +124,22 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
 	line-height: 32px;
     text-decoration: none;
 }
+a.sub:link, a.sub:visited {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 28px;
+    text-decoration: none;
+}
+a.sub:hover, a.sub:active {
+    color: blue;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 28px;
+    text-decoration: underline;
+}
 ul {
     list-style-type: none;
     position: relative;
@@ -148,6 +163,13 @@ li {
     font-size: 16px;
     font-weight: 300;
     line-height: 32px;
+}
+li.sub {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
 }
 li.nav {
     color: rgba(245, 245, 245, 1);
