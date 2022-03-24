@@ -112,7 +112,7 @@ a:hover, a:active {
 a.footer:link, a.footer:visited {
 	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
-	font-size: 0.75em;
+	font-size: 1em;
 	font-weight: 200;
 	line-height: 200%;
     text-decoration: none;
@@ -120,7 +120,7 @@ a.footer:link, a.footer:visited {
 a.footer:hover, a.footer:active {
     color: blue;
 	font-family: 'Inter', sans-serif;
-	font-size: 0.75em;
+	font-size: 1em;
 	font-weight: 200;
 	line-height: 200%;
     text-decoration: underline;
@@ -187,7 +187,7 @@ li.nav {
     display: block;
     float: left;
     font-family: 'Inter', sans-serif;
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 500;
     padding: 8px;
 }
