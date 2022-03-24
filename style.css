@@ -101,6 +101,7 @@ a:hover, a:active {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 28px;
+    text-decoration: underline;
 }
 a.footer:link, a.footer:visited {
 	color: rgba(0, 0, 0, 1);
@@ -116,6 +117,7 @@ a.footer:hover, a.footer:active {
 	font-size: 12px;
 	font-weight: 200;
 	line-height: 24px;
+    text-decoration: underline;
 }
 ul {
     list-style-type: none;
