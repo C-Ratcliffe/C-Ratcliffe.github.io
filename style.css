@@ -84,6 +84,15 @@ h3 {
     padding-left: 10px;
     padding-right: 10px;
 }
+.captiontext {
+    color: rgba(0, 0, 0, 1);
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 200%;
+    padding-left: 0px;
+}
 a:link, a:visited {
 	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
