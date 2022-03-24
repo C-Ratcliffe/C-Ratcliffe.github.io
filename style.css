@@ -126,12 +126,8 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
 }
 ul {
     list-style-type: none;
-    color: rgba(0, 0, 0, 1);
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 32px;
-    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
     position: relative;
     text-align: left;
 }
@@ -139,12 +135,20 @@ ul.nav {
     list-style-type: none;
     background-color: rgba(40, 40, 40, 1);
     margin: 0px;
+    overflow: hidden;
     padding: 0px;
     position: fixed;
     text-align: left;
     top: 0;
     width: 100%;
     z-index: 1;
+}
+li {
+    color: rgba(245, 245, 245, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 48px;
 }
 li.nav {
     color: rgba(245, 245, 245, 1);
