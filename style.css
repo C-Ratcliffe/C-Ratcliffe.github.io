@@ -139,6 +139,7 @@ ul {
     font-size: 16px;
     font-weight: 300;
     line-height: 32px;
+    overflow: hidden;
     position: relative;
     text-align: left;
 }
@@ -154,10 +155,12 @@ ul.nav {
 }
 li.nav {
     color: rgba(255, 255, 255, 1);
-    display: inline;
+    display: block;
+    float: left;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
+    padding: 8px;
 }
 li.nav:hover {
     background-color: rgba(0, 0, 0, 1);
