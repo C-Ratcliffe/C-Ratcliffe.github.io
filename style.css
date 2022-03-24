@@ -1,5 +1,5 @@
 body, html {
-	background-colour: rgba(245, 245, 245, 1);
+	background-color: rgba(245, 245, 245, 1);
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -9,7 +9,7 @@ body, html {
     min-height: 100vh;
 }
 #navigation {
-	background-colour: rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, 1);
 	height: 3rem;
 	margin: 0px;
     padding: 0px;
@@ -53,19 +53,19 @@ body, html {
     width: 100%;
 }
 h1 {
-	colour: rgba(245, 245, 245, 1);
+	color: rgba(245, 245, 245, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 32px;
 	font-weight: 400;
 }
 h2 {
-	colour: rgba(245, 245, 245, 1);
+	color: rgba(245, 245, 245, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 }
 h3 {
-	colour: rgba(0, 0, 0, 1);
+	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -74,7 +74,7 @@ h3 {
 	text-align: left;
 }
 .bodytext {
-    colour: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -83,7 +83,7 @@ h3 {
     text-align: left;
 }
 .footertext {
-    colour: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 200;
@@ -92,7 +92,7 @@ h3 {
     padding-right: 10px;
 }
 a:link, a:visited {
-	colour: rgba(0, 0, 0, 1);
+	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -100,7 +100,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 a:hover, a:active {
-    colour: blue;
+    color: blue;
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -108,7 +108,7 @@ a:hover, a:active {
     text-decoration: underline;
 }
 a.footer:link, a.footer:visited {
-	colour: rgba(0, 0, 0, 1);
+	color: rgba(0, 0, 0, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 200;
@@ -116,7 +116,7 @@ a.footer:link, a.footer:visited {
     text-decoration: none;
 }
 a.footer:hover, a.footer:active {
-    colour: blue;
+    color: blue;
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 200;
@@ -124,7 +124,7 @@ a.footer:hover, a.footer:active {
     text-decoration: underline;
 }
 a.nav:link, a.nav:visited {
-	colour: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -132,7 +132,7 @@ a.nav:link, a.nav:visited {
     text-decoration: none;
 }
 a.nav:hover, a.nav:active {
-    colour: blue;
+    color: blue;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -141,7 +141,7 @@ a.nav:hover, a.nav:active {
 }
 ul {
     list-style-type: none;
-    colour: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -151,7 +151,7 @@ ul {
 }
 ul.nav {
     list-style-type: none;
-    colour: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
