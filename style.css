@@ -22,6 +22,7 @@ body, html {
 }
 #hero_text {
 	left: 20px;
+    padding-left: 20px;
 	position: absolute;
 	top: 55%;
 	transform: translate(0%, -50%);
