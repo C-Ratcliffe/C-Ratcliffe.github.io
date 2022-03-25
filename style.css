@@ -132,10 +132,7 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
     font-size: 1em;
     font-weight: 400;
 	line-height: 200%;
-    padding-bottom: 14px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 14px;
+    padding: 14px;
     text-decoration: none;
 }
 a.sub:link, a.sub:visited {
@@ -193,7 +190,6 @@ li.nav {
     font-family: 'Inter', sans-serif;
     font-size: 1em;
     font-weight: 500;
-    padding: 8px;
 }
 li.nav:hover {
     background-color: rgba(0, 0, 0, 1);
