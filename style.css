@@ -57,14 +57,14 @@ a {
 .row {
     display: flex;
     flex-flow: row wrap;
-    max-width: 100%;
+    width: auto;
 }
 .col {
     flex: 1;
-    width:auto;
+    width: auto;
     max-height: 20rem;
-    padding: 10px;
-    max-width: 20rem;
+    margin: 10px;
+    max-width: 50%;
 }
 
 /* Navigation and hero image/text */
