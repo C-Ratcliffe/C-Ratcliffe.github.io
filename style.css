@@ -24,11 +24,36 @@ footer {
     line-height: 200%;
     height: 5.5rem;
     margin: 0px;
+    padding: 3%;
     position: absolute;
     text-align: center;
     width: 94%;
+}
+p {
     color: rgba(0, 0, 0, 1);
-    padding: 3%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 200%
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    position: relative;
+    text-align: left;
+}
+li {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 200%;
+}
+a {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    line-height: 200%
 }
 
 /* Navigation and hero image/text */
@@ -48,8 +73,6 @@ ul.nav {
     color: rgba(245, 245, 245, 1);
     display: block;
     float: left;
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
     font-weight: 500;
 }
 .nav > li:hover {
@@ -57,10 +80,7 @@ ul.nav {
 }
 a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
     color: rgba(255, 255, 255, 1);
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
     font-weight: 400;
-    line-height: 200%;
     padding: 14px;
     text-decoration: none;
 }
@@ -79,7 +99,7 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
 	left: 20px;
     padding-right: 20px;
 	position: absolute;
-	top: 55%;
+	top: 50%;
 	transform: translate(0%, -50%);
 }
 #hero_subtext {
@@ -111,19 +131,6 @@ h3 {
 	position: relative;
 	text-align: left;
 }
-ul {
-    list-style-type: none;
-    margin: 0px;
-    position: relative;
-    text-align: left;
-}
-li {
-    color: rgba(0, 0, 0, 1);
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 200%;
-}
 .sub > li {
     font-size: 0.875em;
 }
@@ -131,44 +138,33 @@ img.figure {
     max-width: 100%;
     height: auto;
 }
+.introtext {
+    font-size: 0.75em;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
 .bodytext {
-    color: rgba(0, 0, 0, 1);
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 200%;
     position: relative;
     text-align: justify;
 }
 .captiontext {
-    color: rgba(0, 0, 0, 1);
     display: inline;
-    font-family: 'Inter', sans-serif;
     font-size: 0.75em;
-    font-weight: 300;
-    line-height: 200%;
     padding-left: 0px;
 }
 a:link, a:visited {
-    color: rgba(0, 0, 0, 1);
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
     font-weight: 400;
-    line-height: 200%;
     text-decoration: none;
 }
 a:hover, a:active {
     color: blue;
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
     font-weight: 400;
-    line-height: 200%;
     text-decoration: underline;
 }
 
 /* Footer */
 a.footer:link, a.footer:visited {
-	color: rgba(0, 0, 0, 1);
     font-weight: 200;
     text-decoration: none;
 }
