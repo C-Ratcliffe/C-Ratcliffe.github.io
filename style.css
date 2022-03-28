@@ -139,8 +139,11 @@ h3 {
     height: auto;
 }
 #headshot {
+    float: left;
     max-width: 50%;
     height: auto;
+    max-height: 20rem;
+    
 }
 .introtext {
     font-size: 0.75em;
