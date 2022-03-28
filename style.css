@@ -54,6 +54,15 @@ a {
     font-size: 1em;
     line-height: 200%
 }
+.row {
+  display: flex;
+  height:auto;
+  max-height: 20rem;
+}
+
+.col {
+  flex: 1;
+}
 
 /* Navigation and hero image/text */
 ul.nav {
