@@ -85,7 +85,7 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
     text-decoration: none;
 }
 #hero_image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c-ratcliffe.github.io/img/Header_Brain_Cropped.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/header_brain_cropped.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -134,8 +134,12 @@ h3 {
 .sub > li {
     font-size: 0.875em;
 }
-img.figure {
+.figure {
     max-width: 100%;
+    height: auto;
+}
+#headshot {
+    max-width: 50%;
     height: auto;
 }
 .introtext {
