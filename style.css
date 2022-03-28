@@ -21,10 +21,11 @@ footer {
     font-size: 0.75em;
     font-weight: 200;
     margin: 0px;
-    padding: 1%;
+    max-height: 5.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
     position: absolute;
     text-align: center;
-    width: 98%;
 }
 p {
     color: rgba(0, 0, 0, 1);
