@@ -11,7 +11,8 @@ body, html {
     min-height: 100vh;
 }
 #page_content {
-    margin: 0px;
+    margin: auto;
+    max-width: 70rem;
     padding-bottom: 5.5rem;
     padding-left: 30px;
     padding-right: 30px;
@@ -22,10 +23,11 @@ footer {
     font-weight: 200;
     margin: 0px;
     max-height: 5.5rem;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
     position: absolute;
     text-align: center;
+    width: 98%;
 }
 p {
     color: rgba(0, 0, 0, 1);
@@ -53,7 +55,7 @@ a {
     color: rgba(0, 0, 0, 1);
     font-family: 'Inter', sans-serif;
     font-size: 1em;
-    line-height: 200%
+    line-height: 200%;
 }
 .row {
     display: flex;
