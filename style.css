@@ -19,16 +19,9 @@ body, html {
 }
 footer {
     bottom: 0;
-    font-size: 0.75em;
-    font-weight: 200;
-    margin: auto;
-    max-width: 80rem;
     max-height: 5.5rem;
-    padding-left: 1%;
-    padding-right: 1%;
-    position: relative;
-    text-align: center;
-    max-width: 98%;
+    position: absolute;
+    width: 100%;
 }
 p {
     color: rgba(0, 0, 0, 1);
@@ -177,6 +170,16 @@ a:hover, a:active {
 }
 
 /* Footer */
+#footer_text {
+    font-size: 0.75em;
+    font-weight: 200;
+    margin: auto;
+    max-width: 80rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: center;
+}
 a.footer:link, a.footer:visited {
     font-weight: 200;
     text-decoration: none;
@@ -186,3 +189,16 @@ a.footer:hover, a.footer:active {
     font-weight: 200;
     text-decoration: underline;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
