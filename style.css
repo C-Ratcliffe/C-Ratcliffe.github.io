@@ -21,7 +21,8 @@ footer {
     bottom: 0;
     font-size: 0.75em;
     font-weight: 200;
-    margin: 0px;
+    margin: auto;
+    max-width: 80rem;
     max-height: 5.5rem;
     padding-left: 1%;
     padding-right: 1%;
@@ -110,6 +111,8 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
 }
 #hero_text {
 	left: 20px;
+    margin: auto;
+    max-width: 80rem;
     padding-right: 20px;
 	position: absolute;
 	top: 50%;
@@ -117,6 +120,8 @@ a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
 }
 #hero_subtext {
 	left: 20px;
+    margin: auto;
+    max-width: 70rem;
 	position: absolute;
 	top: 85%;
 	transform: translate(0%, -50%);
