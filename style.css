@@ -60,7 +60,6 @@ a {
 .col {
     flex: 1;
     height: auto;
-    max-height: 20rem;
     margin: 10px;
 }
 
