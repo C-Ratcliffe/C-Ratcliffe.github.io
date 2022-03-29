@@ -8,7 +8,7 @@ body, html {
 }
 #page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
 }
 #page_content {
     margin: auto;
@@ -21,7 +21,7 @@ footer {
     bottom: 0;
     max-height: 5.5rem;
     position: absolute;
-    width: 100%;
+    width: auto;
 }
 p {
     color: rgba(0, 0, 0, 1);
