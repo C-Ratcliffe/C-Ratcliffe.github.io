@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<html>
+<body>
+  <div id="page-container">
+    <div id="hero_image">
+      <ul class="nav">
+        <li><a class = "nav" href="index.html">Home</a></li>
+        <li><a class = "nav" href="abstracts.html">Abstracts</a></li>
+        <li><a class = "nav" href="books.html">Books</a></li>
+        <li><a class = "nav" href="cv.html">CV</a></li>
+        <li><a class = "nav" href="music.html">Music</a></li>
+        <li><a class = "nav" href="software.html">Software</a></li>
+        <li><a class = "nav" href="acknowledgements.html">Acknowledgements</a></li>
+      </ul>
+      <div id="hero_text">
+        <h1>Clinical Prediction Models for Treatment Outcomes in Newly Diagnosed Epilepsy: A Systematic Review</h1>
+        <h2>Ratcliffe, de Bézenac, Das, Biswas, Marson, and Keller, 2024</h2>
+      </div>
+    </div>
+    <div id="page_content">
+      <h3>Abstract</h3>
+      <p>Introduction: Structural neuroimaging analyses require 'research quality' images, acquired with costly MRI acquisitions. Isotropic (3D) T1 images are desirable for quantitative analyses, however a routine compromise in the clinical setting is to acquire anisotropic (2D) analogues for qualitative visual inspection. Machine learning-based software have shown promise in addressing some of the limitations of 2D scans in research applications, yet their efficacy in quantitative research is not well understood. To evaluate the applicability of image preprocessing methods, morphometry in idiopathic generalised epilepsy (IGE)—in which, pathology-related abnormalities of the subcortical structures have been reproducibly demonstrated—was investigated first in 3D scans, then in 2D scans, resampled images, and synthesised images.
+			
+			Methods: 2D and 3D T1 MRI were acquired during the same scanning session from 31 individuals (males = 14, mean age = 32.16) undergoing evaluation for IGE at the Walton Centre NHS Foundation Trust, Liverpool, as well as 39 healthy age- and sex-matched controls (males = 16, mean age = 32.13). The DL+DiReCT pipeline was used to provide segmentations of the 2D images, and estimates of regional volume and thickness. The 2D scans were also resampled into isotropic images using NiBabel, and preprocessed into synthetic isotropic images using SynthSR. For the 3D scans, untransformed 2D scans, resampled images, and synthesised images, FreeSurfer 7.2.0 was used to create parcellations of 178 anatomical regions (equivalent to the 178 parcellations provided as part of the DL+DiReCT pipeline), defined by the aseg and Destrieux atlases, and FSL FIRST was used to segment subcortical surface shapes. Spatial correspondence and intraclass correlations between the morphometrics of the five parcellations were first determined, then subcortical surface shape abnormalities associated with IGE were identified by comparing the FSL FIRST outputs of patients with controls.
+			
+			Results: When standardised to the metrics derived from the 3D scans, cortical volume and thickness estimates trended lower for the untransformed 2D, DL+DiReCT, resampled, and SynthSR images, whereas subcortical volume estimates did not differ. Dice coefficients revealed a low spatial similarity between the cortices of the 3D scans and the other images overall, which was higher in the subcortical structures. Intraclass correlation coefficients reiterated this disparity, with estimates of thickness being less similar than those of volume, and DL+DiReCT estimates trending less similar than the other images types. For the people with epilepsy, the 3D scans showed significant surface deflations across various subcortical structures when compared to healthy controls. Analysis of the untransformed 2D scans enabled the detection of a subset of subcortical abnormalities, whereas analyses of the resampled and synthetic images attenuated almost all significance.
+			
+			Conclusions: Generalised image synthesis methods do not currently attenuate partial volume effects resulting from low through plane resolution in anisotropic MRI scans, instead quantitative analyses using 2D images should be interpreted with caution, and researchers should consider the potential implications of preprocessing.
+      </p>
+      <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.17994">Full text available here</a>
+    </div>
+    <footer>
+      <p id="footer_text">All opinions presented are solely my own; recommendations of media and resources are made independent of any ideologies/beliefs those involved in the production may hold
+      <br/>Contact:
+      <a class="footer" href="mailto:corey.ratcliffe@liverpool.ac.uk">corey.ratcliffe@liverpool.ac.uk</a></p>
+    </footer>
+S  </div>
+</body>
+
+</html>
