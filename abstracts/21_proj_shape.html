@@ -6,53 +6,53 @@
 <meta name="viewport" content="width=device-width, initial-scale=0.5">
 <html>
 <body>
-    <div id="page-container">
-        <div id="hero_image">
-            <ul class="nav">
-                <li><a class = "nav" href="../index.html">Home</a></li>
-                <li><a class = "nav" href="../abstracts.html">Abstracts</a></li>
-                <li><a class = "nav" href="../books.html">Books</a></li>                
-                <li><a class = "nav" href="../cv.html">C.V.</a></li>
-                <li><a class = "nav" href="../music.html">Music</a></li>
-                <li><a class = "nav" href="../software.html">Software</a></li>
-                <li><a class = "nav" href="../acknowledgements.html">Acknowledgements</a></li>
-            </ul>
-        	<div id="hero_text">
-        		<h1>Subcortical Shape Analysis in Patients with Neurocysticercosis Presenting with Seizures [POSTER]</h1>
-        		<h2>Ratcliffe, Anan, de Bézenac, ... and Keller, 2021</h2>
-            </div>
-        </div>
-        <div id="page_content">
-            <h3>Rationale</h3>
-        	<p>Neurocysticercosis (NCC), a parasitic CNS infection endemic to developing nations, is the leading global cause of acquired epilepsy. It is currently unknown why some patients with NCC develop recurrent seizures, although previous research has suggested that ictogenesis is a consequence of abnormal sub-cortical circuitry. There is evidence for a relationship between hippocampal sclerosis and increased seizure incidence in NCC, and other subcortical structures, the thalamus in particular, are increasingly reported as abnormal in new-onset epilepsy. A relative sparsity of biomarker literature has been identified in NCC-based epileptogenesis, and so the present study aimed to assess the putative importance of sub-cortical abnormalities in NCC to the expression of spontaneous recurrent seizures. A common approach in epilepsy research, sub-cortical surface shape analysis, quantifies surface deflation of sub-cortical structures, providing a proxy measurement for localised atrophy.
-            </p>
-            <h3>Methods</h3>
-        	<p>Clinical histories and 3D-T1 MRI data were acquired from 83 patients with probable NCC, 49 with recurrent seizures and 34 without. The imaging data were examined using an established surface shape segmentation tool (FIRST) included as part of the FSL-ANAT processing pipeline in the FMRIB Software Library, with sex and age included as nuisance regressors in the final model. The FSL-ANAT pipeline reorientated, cropped, bias-field corrected, spatially normalised, brain-extracted, tissue-type segmented and parcellated the subcortical structures for surface shape analysis. The sub-cortical segmentations are input into a non-parametric t-test, which uses a permutation-modelled null to calculate and output multiple-comparison corrected (at p < .05) clusters of regional inward surface deflation on a 3D surface mesh.
-            </p>
-            <h3>Results</h3>
-        	<p>Patients with NCC and recurrent seizures showed significant (corrected p < .05) inward surface deflation in localised regions of the right hippocampus compared to seizure-free NCC patients, when age and sex were modelled as nuisance regressors (Fig. 1). There was no significant or trend level differences in regional shape of the remaining structures between patients presenting with or without seizures.
-            </p>
-            <img class="figure" src="../img/21_proj_shape_fig1.png" alt="Figure 1. Surface shape analysis results, showing significant inwards deflation of the right hippocampus in the seizure-recurrent group.">
-            <p class="captiontext"><strong>Figure 1.</strong> Significant inwards deflation of the right hippocampus in seizure-recurrent NCC patients, compared to seizure-free NCC patients. Areas in red represent vertices significantly deflated in the seizure-recurrent group, after multiple-comparisons correction. 
-            </p>
-            <h3>Conclusions</h3>
-        	<p>Patients with NCC who present with seizures show evidence of localised hippocampal atrophy compared to patients who present with no seizures. This is in line with recent studies that describe global hippocampal volume reduction in patients with NCC and seizures.  Taken together, this may suggest that patients who develop seizures after NCC infection may be predisposed to the development of epileptic seizures in light of precipitating hippocampal abnormalities. Future research should aim to quantify the extent to which, alongside other factors such as perilesional oedema, sub-cortical shape contributes to the multi-factorial aetiology of NCC-based seizures.
-            </p>
-            <h3>References</h3>
-        	<ol>
-                <li>Keller SS, Richardson MP, O’Muircheartaigh J, Schoene-Bake J-C, Elger C, Weber B. Morphometric MRI alterations and postoperative seizure control in refractory temporal lobe epilepsy: Morphometry and Outcome in Epilepsy. <em>Hum Brain Mapp</em> (2015) 36:1637–1647. doi:<a href="https://onlinelibrary.wiley.com/doi/10.1002/hbm.22722">10.1002/hbm.22722</a></li>
-                <li>Perani S, Tierney TM, Centeno M, Shamshiri EA, Yaakub SN, O’Muircheartaigh J, Carmichael DW, Richardson MP. Thalamic volume reduction in drug-naive patients with new-onset genetic generalized epilepsy. <em>Epilepsia</em> (2018) 59:226–234. doi:<a href="https://onlinelibrary.wiley.com/doi/10.1111/epi.13955">10.1111/epi.13955</a></li>
-                <li>Jama-António JMC, Yasuda CL, Cendes F. Neurocysticercosis and Hippocampal Atrophy: MRI Findings and the Evolution of Viable or Calcified Cysts in Patients With Neurocysticercosis. <em>Front Neurol</em> (2019) 10: doi:<a href="https://www.frontiersin.org/articles/10.3389/fneur.2019.00449/full">10.3389/fneur.2019.00449</a></li>
-                <li>Leek NJ, Neason M, Kreilkamp B a. K, de Bezenac C, Ziso B, Elkommos S, Das K, Marson AG, Keller SS. Thalamohippocampal atrophy in focal epilepsy of unknown cause at the time of diagnosis. <em>Eur J Neurol</em> (2021) 28:367–376. doi:<a href="https://onlinelibrary.wiley.com/doi/10.1111/ene.14565">10.1111/ene.14565</a></li>
-                <li>Jenkinson M, Beckmann CF, Behrens TEJ, Woolrich MW, Smith SM. FSL. <em>NeuroImage</em> (2012) 62:782–790. doi:<a href="https://www.sciencedirect.com/science/article/pii/S1053811911010603?via%3Dihub">10.1016/j.neuroimage.2011.09.015</a></li>
-            </ol>
-        </div>
-        <footer>
-            <p id="footer_text">All opinions presented are solely my own; recommendations of media and resources are made independent of any ideologies/beliefs those involved in the production may hold
-            <br/>Contact:
-            <a class="footer" href="mailto:corey.ratcliffe@liverpool.ac.uk">corey.ratcliffe@liverpool.ac.uk</a></p>
-        </footer>
+  <div id="page-container">
+    <div id="hero_image">
+      <ul class="nav">
+        <li><a class = "nav" href="../index.html">Home</a></li>
+        <li><a class = "nav" href="../abstracts.html">Abstracts</a></li>
+        <li><a class = "nav" href="../books.html">Books</a></li>
+        <li><a class = "nav" href="../cv.html">CV</a></li>
+        <li><a class = "nav" href="../music.html">Music</a></li>
+        <li><a class = "nav" href="../software.html">Software</a></li>
+        <li><a class = "nav" href="../acknowledgements.html">Acknowledgements</a></li>
+      </ul>
+      <div id="hero_text">
+        <h1>Subcortical Shape Analysis in Patients with Neurocysticercosis Presenting with Seizures [POSTER]</h1>
+        <h2>Ratcliffe, Anan, de Bézenac, ... and Keller, 2021</h2>
+      </div>
     </div>
+    <div id="page_content">
+      <h3>Rationale</h3>
+      <p>Neurocysticercosis (NCC), a parasitic CNS infection endemic to developing nations, is the leading global cause of acquired epilepsy. It is currently unknown why some patients with NCC develop recurrent seizures, although previous research has suggested that ictogenesis is a consequence of abnormal sub-cortical circuitry. There is evidence for a relationship between hippocampal sclerosis and increased seizure incidence in NCC, and other subcortical structures, the thalamus in particular, are increasingly reported as abnormal in new-onset epilepsy. A relative sparsity of biomarker literature has been identified in NCC-based epileptogenesis, and so the present study aimed to assess the putative importance of sub-cortical abnormalities in NCC to the expression of spontaneous recurrent seizures. A common approach in epilepsy research, sub-cortical surface shape analysis, quantifies surface deflation of sub-cortical structures, providing a proxy measurement for localised atrophy.
+      </p>
+      <h3>Methods</h3>
+      <p>Clinical histories and 3D-T1 MRI data were acquired from 83 patients with probable NCC, 49 with recurrent seizures and 34 without. The imaging data were examined using an established surface shape segmentation tool (FIRST) included as part of the FSL-ANAT processing pipeline in the FMRIB Software Library, with sex and age included as nuisance regressors in the final model. The FSL-ANAT pipeline reorientated, cropped, bias-field corrected, spatially normalised, brain-extracted, tissue-type segmented and parcellated the subcortical structures for surface shape analysis. The sub-cortical segmentations are input into a non-parametric t-test, which uses a permutation-modelled null to calculate and output multiple-comparison corrected (at p < .05) clusters of regional inward surface deflation on a 3D surface mesh.
+      </p>
+      <h3>Results</h3>
+      <p>Patients with NCC and recurrent seizures showed significant (corrected p < .05) inward surface deflation in localised regions of the right hippocampus compared to seizure-free NCC patients, when age and sex were modelled as nuisance regressors (Fig. 1). There was no significant or trend level differences in regional shape of the remaining structures between patients presenting with or without seizures.
+      </p>
+      <img class="figure" src="../img/21_proj_shape_fig1.png" alt="Figure 1. Surface shape analysis results, showing significant inwards deflation of the right hippocampus in the seizure-recurrent group.">
+      <p class="captiontext"><strong>Figure 1.</strong> Significant inwards deflation of the right hippocampus in seizure-recurrent NCC patients, compared to seizure-free NCC patients. Areas in red represent vertices significantly deflated in the seizure-recurrent group, after multiple-comparisons correction. 
+      </p>
+      <h3>Conclusions</h3>
+      <p>Patients with NCC who present with seizures show evidence of localised hippocampal atrophy compared to patients who present with no seizures. This is in line with recent studies that describe global hippocampal volume reduction in patients with NCC and seizures.  Taken together, this may suggest that patients who develop seizures after NCC infection may be predisposed to the development of epileptic seizures in light of precipitating hippocampal abnormalities. Future research should aim to quantify the extent to which, alongside other factors such as perilesional oedema, sub-cortical shape contributes to the multi-factorial aetiology of NCC-based seizures.
+      </p>
+      <h3>References</h3>
+      <ol>
+        <li>Keller SS, Richardson MP, O’Muircheartaigh J, Schoene-Bake J-C, Elger C, Weber B. Morphometric MRI alterations and postoperative seizure control in refractory temporal lobe epilepsy: Morphometry and Outcome in Epilepsy. <em>Hum Brain Mapp</em> (2015) 36:1637–1647. doi:<a href="https://onlinelibrary.wiley.com/doi/10.1002/hbm.22722">10.1002/hbm.22722</a></li>
+        <li>Perani S, Tierney TM, Centeno M, Shamshiri EA, Yaakub SN, O’Muircheartaigh J, Carmichael DW, Richardson MP. Thalamic volume reduction in drug-naive patients with new-onset genetic generalized epilepsy. <em>Epilepsia</em> (2018) 59:226–234. doi:<a href="https://onlinelibrary.wiley.com/doi/10.1111/epi.13955">10.1111/epi.13955</a></li>
+        <li>Jama-António JMC, Yasuda CL, Cendes F. Neurocysticercosis and Hippocampal Atrophy: MRI Findings and the Evolution of Viable or Calcified Cysts in Patients With Neurocysticercosis. <em>Front Neurol</em> (2019) 10: doi:<a href="https://www.frontiersin.org/articles/10.3389/fneur.2019.00449/full">10.3389/fneur.2019.00449</a></li>
+        <li>Leek NJ, Neason M, Kreilkamp B a. K, de Bezenac C, Ziso B, Elkommos S, Das K, Marson AG, Keller SS. Thalamohippocampal atrophy in focal epilepsy of unknown cause at the time of diagnosis. <em>Eur J Neurol</em> (2021) 28:367–376. doi:<a href="https://onlinelibrary.wiley.com/doi/10.1111/ene.14565">10.1111/ene.14565</a></li>
+        <li>Jenkinson M, Beckmann CF, Behrens TEJ, Woolrich MW, Smith SM. FSL. <em>NeuroImage</em> (2012) 62:782–790. doi:<a href="https://www.sciencedirect.com/science/article/pii/S1053811911010603?via%3Dihub">10.1016/j.neuroimage.2011.09.015</a></li>
+      </ol>
+    </div>
+    <footer>
+      <p id="footer_text">All opinions presented are solely my own; recommendations of media and resources are made independent of any ideologies/beliefs those involved in the production may hold
+      <br/>Contact:
+      <a class="footer" href="mailto:corey.ratcliffe@liverpool.ac.uk">corey.ratcliffe@liverpool.ac.uk</a></p>
+    </footer>
+  </div>
 </body>
 
 </html>
