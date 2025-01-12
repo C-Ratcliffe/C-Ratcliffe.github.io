@@ -1,0 +1,5 @@
+.archive/
+.template/
+*.tiff
+*.mp4
+.DS_Store
