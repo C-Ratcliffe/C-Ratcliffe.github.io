@@ -44,11 +44,14 @@
         <li><a href="https://news.newcastle.ac.uk/2023/11/15/becoming-an-expert-using-brain-mris-in-tropical-diseases/">2023 - University of Liverpool News - Becoming an Expert: Using brain MRIs in tropical diseases</a></li>
       </ul>
     </div>
-    <footer>
-      <p id="footer_text">All opinions presented are solely my own; recommendations of media and resources are made independent of any ideologies/beliefs those involved in the production may hold
-      <br/>Contact:
-      <a class="footer" href="mailto:corey.ratcliffe@newcastle.ac.uk">corey.ratcliffe@newcastle.ac.uk</a></p>
-    </footer>
+		<div id="footer"></div>
+		<script>
+		  fetch("/resources/footer.html")
+		    .then(res => res.text())
+		    .then(html => {
+		      document.getElementById("footer").innerHTML = html;
+		    });
+		</script>
   </div>
 </body>
 

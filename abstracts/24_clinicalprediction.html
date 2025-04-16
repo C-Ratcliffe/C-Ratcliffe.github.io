@@ -28,12 +28,15 @@
       </p>
       <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.17994">Full text available here</a>
     </div>
-    <footer>
-      <p id="footer_text">All opinions presented are solely my own; recommendations of media and resources are made independent of any ideologies/beliefs those involved in the production may hold
-      <br/>Contact:
-      <a class="footer" href="mailto:corey.ratcliffe@newcastle.ac.uk">corey.ratcliffe@newcastle.ac.uk</a></p>
-    </footer>
-    </div>
+		<div id="footer"></div>
+		<script>
+		  fetch("/resources/footer.html")
+		    .then(res => res.text())
+		    .then(html => {
+		      document.getElementById("footer").innerHTML = html;
+		    });
+		</script>
+  </div>
 </body>
 
 </html>

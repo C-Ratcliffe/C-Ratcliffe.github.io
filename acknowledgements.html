@@ -28,11 +28,14 @@
           <li>Header image: Used under the free Unsplash license, provided by <a href="https://unsplash.com/@averey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robina Weermeijer</a></li>
         </ul>
       </div>
-    <footer>
-      <p id="footer_text">All opinions presented are solely my own; recommendations of media and resources are made independent of any ideologies/beliefs those involved in the production may hold
-      <br/>Contact:
-      <a class="footer" href="mailto:corey.ratcliffe@newcastle.ac.uk">corey.ratcliffe@newcastle.ac.uk</a></p>
-    </footer>
+		<div id="footer"></div>
+		<script>
+		  fetch("/resources/footer.html")
+		    .then(res => res.text())
+		    .then(html => {
+		      document.getElementById("footer").innerHTML = html;
+		    });
+		</script>
   </div>
 </body>
 

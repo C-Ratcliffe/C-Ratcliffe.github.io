@@ -52,11 +52,14 @@
 	      </a>
 	    </div>
     </div>
-    <footer>
-      <p id="footer_text">All opinions presented are solely my own; recommendations of media and resources are made independent of any ideologies/beliefs those involved in the production may hold
-      <br/>Contact:
-      <a class="footer" href="mailto:corey.ratcliffe@newcastle.ac.uk">corey.ratcliffe@newcastle.ac.uk</a></p>
-    </footer>
+		<div id="footer"></div>
+		<script>
+		  fetch("/resources/footer.html")
+		    .then(res => res.text())
+		    .then(html => {
+		      document.getElementById("footer").innerHTML = html;
+		    });
+		</script>
   </div>
 </body>
 
