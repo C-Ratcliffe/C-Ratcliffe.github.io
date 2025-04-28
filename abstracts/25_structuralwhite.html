@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<html>
+<body>
+  <div id="page-container">
+    <div id="hero_image">
+      <ul class="nav">
+        <li><a class = "nav" href="../index.html">Home</a></li>
+        <li><a class = "nav" href="../abstracts.html">Abstracts</a></li>
+        <li><a class = "nav" href="../books.html">Books</a></li>
+        <li><a class = "nav" href="../cv.html">CV</a></li>
+        <li><a class = "nav" href="../music.html">Music</a></li>
+        <li><a class = "nav" href="../software.html">Software</a></li>
+        <li><a class = "nav" href="../acknowledgements.html">Acknowledgements</a></li>
+      </ul>
+      <div id="hero_text">
+        <h1>Structural white matter alterations in the DRTT of Parkinson's disease motor phenotypes [POSTER]</h1>
+        <h2>Facer, Ratcliffe, Macerollo, and Keller, 2025</h2>
+      </div>
+    </div>
+    <div id="page_content">
+      <div class="row">
+	      <a href="../resources/25_structuralwhite.pdf" download="25_structuralwhite.pdf">
+	        <img class="col" src="../img/25_structuralwhite.png" alt="Structural white matter alterations in the DRTT of Parkinson's disease motor phenotypes" style="width:100%;min-width:100%">
+	      </a>
+	    </div>
+    </div>
+		<div id="footer"></div>
+		<script>
+		  fetch("/resources/footer.html")
+		    .then(res => res.text())
+		    .then(html => {
+		      document.getElementById("footer").innerHTML = html;
+		    });
+		</script>
+  </div>
+</body>
+
+</html>
