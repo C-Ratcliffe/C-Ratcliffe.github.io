@@ -86,13 +86,13 @@ a {
 	transform: translate(0%, -50%);
 }
 h1 {
-	color: rgba(245, 245, 245, 1);
+	color: rgba(10, 10, 10, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 2em;
 	font-weight: 400;
 }
 h2 {
-	color: rgba(245, 245, 245, 1);
+	color: rgba(10, 10, 10, 1);
 	font-family: 'Inter', sans-serif;
 	font-size: 1em;
 	font-weight: 300;
