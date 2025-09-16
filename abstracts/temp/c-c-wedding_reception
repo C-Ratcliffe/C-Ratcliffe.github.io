@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<html>
+<body>
+  <div id="page-container">
+    <div id="hero_image">
+      <div id="hero_text">
+        <h1>Corey and Connie's Wedding</h1>
+        <h2>1st March, 2026</h2>
+      </div>
+    </div>
+      <div id="page_content">
+        <h2>Please send an email to corey.and.connie@google.com to let us know that you're coming and everything is cool (or text us, you have our numbers!)
+        <h3>Hotels:</h3>
+          <ul>
+            <li><a href="Link to hotel 1">Hotel 1</li>
+            <li><a href="Link to hotel 2">Hotel 2</li>
+          </ul>
+        <h3>Information:</h3>
+    			<ul>
+    				<li>Address:</li>
+    				<li>Times:</li>
+    				<li>Location:</li>
+    				<li>Food:</li>
+    			</ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
