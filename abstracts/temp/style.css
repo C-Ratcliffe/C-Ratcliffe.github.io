@@ -1,0 +1,191 @@
+/* Containers, wrappers, and general formatting */
+body, html {
+    text-size-adjust: none;
+	background-color: rgba(245, 245, 245, 1);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#page-container {
+    position: absolute;
+    min-height: 100%;
+    width: 100%
+}
+#page_content {
+    margin: auto;
+    max-width: 70rem;
+    padding-bottom: 5.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer {
+    bottom: 0;
+    max-height: 5.5rem;
+    position: absolute;
+    width: 100%;
+}
+p {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 200%;
+    position: relative;
+    text-align: justify;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    position: relative;
+    text-align: left;
+}
+li {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 200%;
+}
+a {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    line-height: 200%;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+}
+.col {
+    flex: 1;
+    height: auto;
+    margin: 10px;
+}
+
+/* Navigation and hero image/text */
+ul.nav {
+    list-style-type: none;
+    background-color: rgba(40, 40, 40, 1);
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nav > li {
+    color: rgba(245, 245, 245, 1);
+    display: block;
+    float: left;
+    font-weight: 500;
+}
+.nav > li:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+}
+#hero_image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/header_brain_cropped.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20vh;
+	margin: 0px;
+	max-height: 250px;
+	min-height: 200px;
+	position: relative;
+}
+#hero_text {
+    margin: auto;
+    max-width: 80rem;
+    padding-left: 20px;
+    padding-right: 20px;
+	position: relative;
+	top: 59%;
+	transform: translate(0%, -50%);
+}
+#hero_subtext {
+    padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	top: 85%;
+	transform: translate(0%, -50%);
+}
+h1 {
+	color: rgba(245, 245, 245, 1);
+	font-family: 'Inter', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+}
+h2 {
+	color: rgba(245, 245, 245, 1);
+	font-family: 'Inter', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+/* Page content */
+h3 {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Inter', sans-serif;
+	font-size: 1.125em;
+	font-weight: 400;
+	line-height: 200%;
+	position: relative;
+	text-align: left;
+}
+.sub > li {
+    font-size: 0.875em;
+}
+.figure {
+    max-width: 100%;
+    height: auto;
+}
+.introtext {
+    font-size: 0.75em;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+.captiontext {
+    display: inline;
+    font-size: 0.75em;
+    padding-left: 0px;
+}
+a:link, a:visited {
+    font-weight: 400;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: blue;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/* Footer */
+#footer_text {
+    font-size: 0.75em;
+    font-weight: 200;
+    margin: auto;
+    max-width: 80rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: center;
+}
+a.footer:link, a.footer:visited {
+    font-weight: 200;
+    text-decoration: none;
+}
+a.footer:hover, a.footer:active {
+    color: blue;
+    font-weight: 200;
+    text-decoration: underline;
+}
