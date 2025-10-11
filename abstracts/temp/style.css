@@ -19,7 +19,7 @@ body, html {
     padding-right: 30px;
 }
 p {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(250, 250, 250, 1);
     font-family: 'Inter', sans-serif;
     font-size: 1em;
     font-weight: 300;
@@ -136,12 +136,12 @@ h4 {
     padding-left: 0px;
 }
 a:link, a:visited {
-    font-weight: 400;
+    font-weight: 700;
     text-decoration: none;
 }
 a:hover, a:active {
     color: blue;
-    font-weight: 400;
+    font-weight: 700;
     text-decoration: underline;
 }
 
